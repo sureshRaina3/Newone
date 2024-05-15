@@ -22,3 +22,8 @@ Feature: Amazon HomePage Validation
     Given I am in the amazon Home page
     When I am in the Home page
     Then I am printing in the mobile links
+
+  Scenario: print all links3
+    Given I am in the amazon Home page
+    When I am in the Home page
+    Then I am printing in the mobile links
