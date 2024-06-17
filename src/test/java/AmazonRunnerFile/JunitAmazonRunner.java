@@ -9,7 +9,8 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 @CucumberOptions(
 		features="src/test/java/Features",
 		glue= "StepDefenitions",stepNotifications=true,
-		monochrome=true
+		monochrome=true,
+		dryRun = true
 		)
 
 
