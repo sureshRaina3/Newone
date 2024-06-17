@@ -12,6 +12,7 @@ Feature: Amazon HomePage Validation
       | Sanjay   |    54333 |
       | Uma      |    13243 |
       | Srimathi |    97756 |
+      | Vasu     |    55555 |
 
   Scenario: print all links
     Given I am in the amazon Home page
